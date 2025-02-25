@@ -98,8 +98,8 @@
 									<div class="pbmit-ihbox-wrap">
 										<div class="pbmit-ihbox-contents">
 											<h2 class="pbmit-element-title">Call US 24/7</h2>
-											<div class="pbmit-heading-desc">Phone: +234 803 384 2462
-												<br> Mobile: +234 803 384 2462</div>
+											<div class="pbmit-heading-desc">Phone: +234 701 647 9781
+												<!-- <br> Mobile: +234 803 384 2462</div> -->
 										</div>
 										{{-- <div class="pbmit-ihbox-icon">
 											<div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
@@ -183,7 +183,7 @@
 												</h4>
 												<h2 class="pbmit-element-title">
 													<a href="tel:+1(212)-255-511">
-														<span class="pbmit-button-text">+234 803 384 2462</span>
+														<span class="pbmit-button-text">+234 701 647 9781</span>
 													</a>
 												</h2>
 											</div>

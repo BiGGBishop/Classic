@@ -154,7 +154,7 @@
 			<!-- Static Box end --> 
 
 			<!-- Marquee Start --> 
-            <section class="pt-5 overflow-hidden">
+            <!-- <section class="pt-5 overflow-hidden">
 				<div class="container-fluid p-0">
 					<div class="swiper-slider marquee">
 						<div class="swiper-wrapper">
@@ -189,7 +189,7 @@
 						</div>
 					</div>
 				</div>
-            </section>
+            </section> -->
             <!-- Marquee End -->
 
 			<!-- Ihbox Start -->

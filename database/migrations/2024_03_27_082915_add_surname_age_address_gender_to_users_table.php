@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('username')->nullable();
-            $table->string('role')->nullable();
             $table->integer('age')->nullable();
             $table->string('gender')->default(0);
             $table->string('image')->nullable();

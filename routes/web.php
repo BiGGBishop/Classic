@@ -8,6 +8,7 @@ Route::get('/', [FrontendController::class, 'index'])->name('home');
 Route::get('/about', [FrontendController::class, 'about'])->name('about');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/services', [FrontendController::class, 'services'])->name('service');
+Route::get('/products', [FrontendController::class, 'products'])->name('products');
 Route::get('/services/remodeling-bathroom-homes', [FrontendController::class, 'remodelingBathroomHomes'])->name('service-details-remodeling-bathroom-homes');
 Route::get('/services/interior-design', [FrontendController::class, 'interiorDesign'])->name('service-details-interior-design');
 Route::get('/services/project-management', [FrontendController::class, 'projectManagement'])->name('service-details-project-management');

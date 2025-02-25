@@ -76,6 +76,7 @@
 													<li><a href="{{route('home')}}">Home</a></li>
 													<li><a href="{{route('about')}}">About Us</a></li>
 													<li><a href="{{route('service')}}">Services</a></li>
+													<li><a href="{{route('products')}}">Products</a></li>
 													<li><a href="{{route('contact')}}">Contact Us</a></li>
 												</ul>
 											</div>
@@ -87,7 +88,7 @@
 								<div class="pbmit-button-box">
 									<div class="pbmit-header-button">
 										<a href="tel:+2348033842462">
-											<span class="pbmit-header-button-text-1">+234 803 384 2462</span>			
+											<span class="pbmit-header-button-text-1">+234 701 647 9781</span>			
 										</a>
 									</div>
 								</div>
@@ -221,7 +222,7 @@
 						<aside class="widget">
 							<h2 class="widget-title">Say Hello</h2>
 							<div class="pbmit-contact-widget-lines">
-								<div class="pbmit-contact-widget-line pbmit-contact-widget-phone">+234 803 384 2462</div>
+								<div class="pbmit-contact-widget-line pbmit-contact-widget-phone">+234 701 647 9781</div>
 								<div class="pbmit-contact-widget-line pbmit-contact-widget-email">info@classicwhitestone.com.ng</div>
 							</div>
 						</aside>

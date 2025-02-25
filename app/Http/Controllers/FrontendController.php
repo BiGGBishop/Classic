@@ -26,6 +26,11 @@ class FrontendController extends Controller
         return view('frontend.services');
     }
 
+    public function products()
+    {
+        return view('frontend.products');
+    }
+
     public function remodelingBathroomHomes()
     {
         return view('frontend.service-details-remodeling-bathroom-homes');

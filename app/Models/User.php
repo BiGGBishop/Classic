@@ -51,25 +51,4 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
-    
-    const GENDER_MALE = 0;
-    const GENDER_FEMALE = 1;
-
-    static function getGenders()
-    {
-        return [
-            self::GENDER_MALE => 'Men',
-            self::GENDER_FEMALE => 'Women'
-        ];
-    }
-
-    public function getGenderTitleAttribute()
-    {
-        return self::getGenders()[$this->gender];
-    }
-
-    public function setPasswordAttribute($password)
-    {
-        $this->attributes['password'] = bcrypt($password);
-    }
 }

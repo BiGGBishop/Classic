@@ -99,73 +99,55 @@
         <nav class="md:w-1/3 left-side px-8 py-9 flex-col justify-between hidden md:flex md:py-8 md:px-7 xl:w-2/12">
           <div>
             <ul>
-              <li class="mb-10">
-                <a href="{{ route('dashboard') }}" class="flex items-center">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.07874 16.1354H14.8937" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    <path fillRule="evenodd" clipRule="evenodd" d="M2.40002 13.713C2.40002 8.082 3.01402 8.475 6.31902 5.41C7.76502 4.246 10.015 2 11.958 2C13.9 2 16.195 4.235 17.654 5.41C20.959 8.475 21.572 8.082 21.572 13.713C21.572 22 19.613 22 11.986 22C4.35903 22 2.40002 22 2.40002 13.713Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                  <span class="text-base font-semibold ml-3">Dashboard</span>
-                </a>
-              </li>
-              <li class="mb-10">
-                <a href="{{ route('products.index') }}" class="flex items-center">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.4">
-                      <path fillRule="evenodd" clipRule="evenodd" d="M2.74982 12.7756C2.74982 5.8196 5.06882 3.5016 12.0238 3.5016C18.9798 3.5016 21.2988 5.8196 21.2988 12.7756C21.2988 19.7316 18.9798 22.0496 12.0238 22.0496C5.06882 22.0496 2.74982 19.7316 2.74982 12.7756Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M3.02521 9.32399H21.0332" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M16.4285 13.261H16.4375" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M12.0291 13.261H12.0381" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M7.62142 13.261H7.63042" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M16.4285 17.113H16.4375" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M12.0291 17.113H12.0381" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M7.62142 17.113H7.63042" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M16.033 2.05009V5.31209" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M8.02472 2.05009V5.31209" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </g>
-                  </svg>
-                  <span class="text-base font-semibold text-zinc-500 ml-3">
-                    Products
-                  </span>
-                </a>
-              </li>
-              <li class="mb-16">
-                <a href="{{ route('services.index') }}" class="flex items-center">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.4">
-                      <path fillRule="evenodd" clipRule="evenodd" d="M12 9.5C13.3809 9.5 14.5 10.6191 14.5 12C14.5 13.3809 13.3809 14.5 12 14.5C10.6191 14.5 9.5 13.3809 9.5 12C9.5 10.6191 10.6191 9.5 12 9.5Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path fillRule="evenodd" clipRule="evenodd" d="M20.168 7.25025V7.25025C19.4845 6.05799 17.9712 5.65004 16.7885 6.33852C15.7598 6.93613 14.4741 6.18838 14.4741 4.99218C14.4741 3.61619 13.3659 2.5 11.9998 2.5V2.5C10.6337 2.5 9.52546 3.61619 9.52546 4.99218C9.52546 6.18838 8.23977 6.93613 7.21199 6.33852C6.02829 5.65004 4.51507 6.05799 3.83153 7.25025C3.14896 8.4425 3.55399 9.96665 4.73769 10.6541C5.76546 11.2527 5.76546 12.7473 4.73769 13.3459C3.55399 14.0343 3.14896 15.5585 3.83153 16.7498C4.51507 17.942 6.02829 18.35 7.21101 17.6625H7.21199C8.23977 17.0639 9.52546 17.8116 9.52546 19.0078V19.0078C9.52546 20.3838 10.6337 21.5 11.9998 21.5V21.5C13.3659 21.5 14.4741 20.3838 14.4741 19.0078V19.0078C14.4741 17.8116 15.7598 17.0639 16.7885 17.6625C17.9712 18.35 19.4845 17.942 20.168 16.7498C20.8515 15.5585 20.4455 14.0343 19.2628 13.3459H19.2618C18.2341 12.7473 18.2341 11.2527 19.2628 10.6541C20.4455 9.96665 20.8515 8.4425 20.168 7.25025Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </g>
-                  </svg>
-                  <span class="text-base font-semibold text-zinc-500 ml-3">
-                    Services
-                  </span>
-                </a>
-              </li>
-              
-              <li class="mb-10">
-                <a href="{{ route('purchase.index') }}" class="flex items-center">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g opacity="0.4">
-                      <path fillRule="evenodd" clipRule="evenodd" d="M2.74982 12.7756C2.74982 5.8196 5.06882 3.5016 12.0238 3.5016C18.9798 3.5016 21.2988 5.8196 21.2988 12.7756C21.2988 19.7316 18.9798 22.0496 12.0238 22.0496C5.06882 22.0496 2.74982 19.7316 2.74982 12.7756Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M3.02521 9.32399H21.0332" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M16.4285 13.261H16.4375" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M12.0291 13.261H12.0381" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M7.62142 13.261H7.63042" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M16.4285 17.113H16.4375" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M12.0291 17.113H12.0381" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M7.62142 17.113H7.63042" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M16.033 2.05009V5.31209" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M8.02472 2.05009V5.31209" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </g>
-                  </svg>
-                  <span class="text-base font-semibold text-zinc-500 ml-3">
-                    Purchase
-                  </span>
-                </a>
-              </li>
+                <li class="mb-10">
+                    <a href="{{ route('dashboard') }}" 
+                       class="flex items-center {{ request()->routeIs('dashboard') ? 'text-black font-bold' : 'text-zinc-500' }}">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.07874 16.1354H14.8937" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            <path fillRule="evenodd" clipRule="evenodd" d="M2.4 13.713C2.4 8.082 3.014 8.475 6.319 5.41C7.765 4.246 10.015 2 11.958 2C13.9 2 16.195 4.235 17.654 5.41C20.959 8.475 21.572 8.082 21.572 13.713C21.572 22 19.613 22 11.986 22C4.359 22 2.4 22 2.4 13.713Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                        <span class="text-base font-semibold ml-3">Dashboard</span>
+                    </a>
+                </li>
+                
+                <li class="mb-10">
+                    <a href="{{ route('products.index') }}" 
+                       class="flex items-center {{ request()->routeIs('products.index') ? 'text-black font-bold' : 'text-zinc-500' }}">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.4">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M2.74982 12.7756C2.74982 5.8196 5.06882 3.5016 12.0238 3.5016C18.9798 3.5016 21.2988 5.8196 21.2988 12.7756C21.2988 19.7316 18.9798 22.0496 12.0238 22.0496C5.06882 22.0496 2.74982 19.7316 2.74982 12.7756Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            </g>
+                        </svg>
+                        <span class="text-base font-semibold ml-3">Products</span>
+                    </a>
+                </li>
+        
+                <li class="mb-16">
+                    <a href="{{ route('services.index') }}" 
+                       class="flex items-center {{ request()->routeIs('services.index') ? 'text-black font-bold' : 'text-zinc-500' }}">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.4">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M12 9.5C13.3809 9.5 14.5 10.6191 14.5 12C14.5 13.3809 13.3809 14.5 12 14.5C10.6191 14.5 9.5 13.3809 9.5 12C9.5 10.6191 10.6191 9.5 12 9.5Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            </g>
+                        </svg>
+                        <span class="text-base font-semibold ml-3">Services</span>
+                    </a>
+                </li>
+        
+                <li class="mb-10">
+                    <a href="{{ route('purchase.index') }}" 
+                       class="flex items-center {{ request()->routeIs('purchase.index') ? 'text-black font-bold' : 'text-zinc-500' }}">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.4">
+                                <path fillRule="evenodd" clipRule="evenodd" d="M2.74982 12.7756C2.74982 5.8196 5.06882 3.5016 12.0238 3.5016C18.9798 3.5016 21.2988 5.8196 21.2988 12.7756C21.2988 19.7316 18.9798 22.0496 12.0238 22.0496C5.06882 22.0496 2.74982 19.7316 2.74982 12.7756Z" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            </g>
+                        </svg>
+                        <span class="text-base font-semibold ml-3">Purchase</span>
+                    </a>
+                </li>
             </ul>
-          </div>
+        </div>
+        
         </nav>
                 {{ $slot }}
             </div>
